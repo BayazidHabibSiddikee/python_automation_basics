@@ -1,0 +1,2350 @@
+	<html lang="ja">
+    <head>
+    
+<meta name="referrer" content="origin">
+    
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-HMG13DJCGJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-HMG13DJCGJ');
+</script>
+    
+        <meta charset="utf-8" />
+    
+<meta name="keywords" content="捨てメアド,捨てアド,フリーメール,使い捨てアドレス,メルアド作成,登録用アドレス">
+<meta name="description" content="多機能フリーメールサービス。メールアドレスは同時にいくつでも保有でき、期限もありません。登録も不要です。">
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@kukusama" />
+<meta name="twitter:title" content="捨てメアド【メルアドぽいぽい】" />
+<meta name="twitter:description" content="多機能フリーメールサービス。メールアドレスは同時にいくつでも保有でき、期限もありません。登録も不要です。" />
+<meta name="twitter:image" content="https://m.kuku.lu/img/icon1024_ios.png" />
+
+<meta property="og:url" content="https://m.kuku.lu/" />
+<meta property="og:title" content="捨てメアド【メルアドぽいぽい】" />
+<meta property="og:description" content="多機能フリーメールサービス。メールアドレスは同時にいくつでも保有でき、期限もありません。登録も不要です。" />
+<meta property="og:image" content="https://m.kuku.lu/img/icon1024_ios.png" />
+    
+  <TITLE>捨てメアド【メルアドぽいぽい】</TITLE>
+
+<meta name="robots" content="index, follow" />
+    
+	
+
+
+    
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META http-equiv="Content-Style-Type" content="text/css">
+	
+<meta name="color-scheme" content="dark light">
+
+<LINK rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+<script src="js/base64.js"></script>
+
+<link rel="stylesheet" href="css/themes/mailnow.min.css?v=20" />
+<link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css" />
+	
+<link rel="stylesheet" href="js/jquery.mobile-1.4.5/jquery.mobile.structure-1.4.5.min.css" /> 
+	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	
+<script>
+$(document).bind('mobileinit', function(){
+	$.mobile.useFastClick = false;
+	$.mobile.ajaxEnabled = false;
+	$.mobile.pushStateEnabled = false;
+	$.mobile.hashListeningEnabled = false;
+});
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script>
+		
+		
+<script src="js/jquery.inview.min.js"></script>
+<script src="js/jstz.min.js"></script>
+
+<STYLE type="text/css">
+<!--
+
+html{
+	scrollbar-gutter: stable;
+}
+
+::-webkit-scrollbar{
+	width: 10px;
+}
+::-webkit-scrollbar-track{
+	background: #fff;
+	border-left: solid 1px #ececec;
+}
+::-webkit-scrollbar-thumb{
+	background: #ccc;
+	border-radius: 10px;
+	box-shadow: inset 0 0 0 2px #fff;
+}
+
+.wordbreak{
+    word-break: break-all;
+    word-wrap: break-word;
+    overflow-wrap: anywhere;
+    line-break: anywhere;
+}
+
+.oauth_button_apple, .oauth_button_google, .oauth_button_qrcode{
+	border-radius:6px;
+	padding:10px;
+	margin:5px;
+	border-radius:6px;
+	cursor:pointer;
+}
+.oauth_button_apple{
+	background-color:black;
+}
+.oauth_button_apple img{
+}
+.oauth_button_google{
+	background-color:rgba(128,128,128,0.1);
+}
+.oauth_button_qrcode{
+	background-color:rgba(128,128,128,0.1);
+}
+
+.fade_bg{
+	background-color:rgba(128,128,128,0.1);
+}
+
+.autoicon{oauth_button_
+}
+
+.unsel{
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-khtml-user-select: none;
+	user-select: none;
+}
+
+.ui-page-theme-a a, html .ui-bar-a a, html .ui-body-a a, html body .ui-group-theme-a a {
+	font-weight: normal;
+}
+.ui-btn, label.ui-btn {
+	font-weight: normal;
+}
+
+.ui-mobile label, .ui-controlgroup-label {
+	margin:0;
+}
+
+.ui-btn{
+	white-space: normal;
+}
+
+.simplebutton{
+	background-color:white !important;
+	border:white !important;
+	color:#0068A7 !important;
+	cursor:pointer;
+}
+
+.noborderinput{
+	background-color: white;
+	color: black;
+}
+
+.titletext{
+  color: #666666;
+}
+
+.ui-popup {
+    border-radius: 5px;
+    border-color: rgba(0,0,0,0.1) !important;
+    overflow: auto;
+}
+
+.ui-checkbox, .ui-radio {
+    margin: .3em 0;
+    border-radius:4px;
+}
+
+.ui-popup-container {
+	margin: auto;
+    left: 0 !important;
+    right: 0 !important;
+    width: 500px;
+    max-width: 100%;
+    min-width: 60%;
+}
+
+.ui-listview>.ui-li-static, .ui-listview>.ui-li-divider, .ui-listview>li>a.ui-btn{
+	}
+
+.ui-input-text input, .ui-input-search input {
+	}
+
+.ui-input-text {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.ui-input-search:after {
+	}
+
+.ui-checkbox .ui-btn, .ui-radio .ui-btn {
+	}
+
+.ui-popup-screen.in {
+    opacity: .6;
+}
+.ui-overlay-b, .ui-page-theme-b, .ui-page-theme-b .ui-panel-wrapper {
+    background-color: black;
+}
+.ui-overlay-shadow {
+    -webkit-box-shadow: 0 2.5rem 2rem -2rem hsl(200 50% 20% / 40%);
+    -moz-box-shadow: 0 2.5rem 2rem -2rem hsl(200 50% 20% / 40%);
+    box-shadow: 0 2.5rem 2rem -2rem hsl(200 50% 20% / 40%);
+}
+
+.ui-overlay-a .ui-focus, .ui-overlay-b .ui-focus, .ui-page-theme-a .ui-btn:focus {
+    -webkit-box-shadow: 0 0 2px rgba(0,0,0,.1);
+    -moz-box-shadow: 0 0 2px rgba(0,0,0,.1);
+    box-shadow: 0 0 2px rgba(0,0,0,.1);
+}
+
+.ui-page-theme-a .ui-btn:focus, html .ui-bar-a .ui-btn:focus, html .ui-body-a .ui-btn:focus, html body .ui-group-theme-a .ui-btn:focus, html head + body .ui-btn.ui-btn-a:focus, .ui-page-theme-a .ui-focus, html .ui-bar-a .ui-focus, html .ui-body-a .ui-focus, html body .ui-group-theme-a .ui-focus, html head + body .ui-btn-a.ui-focus, html head + body .ui-body-a.ui-focus {
+    -webkit-box-shadow: 0 0 2px rgba(0,0,0,.1);
+    -moz-box-shadow: 0 0 2px rgba(0,0,0,.1);
+    box-shadow: 0 0 2px rgba(0,0,0,.1);
+}
+
+.ui-input-text, .ui-input-search {
+	margin: 0;
+}
+
+.ui-mobile .ui-page-active {
+	overflow: visible;
+	overflow-x: visible;
+}
+
+.ui-body-a, .ui-page-theme-a .ui-body-inherit, html .ui-bar-a .ui-body-inherit, html .ui-body-a .ui-body-inherit, html body .ui-group-theme-a .ui-body-inherit, html .ui-panel-page-container-a {
+	text-shadow: 0px 0px 0px rgba(0,0,0,0) !important;
+}
+	
+.floatbutton {
+	padding:0px;
+	padding-top:0px;
+	margin:0px;
+	text-align:center;
+	position:absolute;
+	z-index:1000;
+}
+@supports (position: sticky) or (position: -webkit-sticky) {
+	.floatbutton {
+		position:-webkit-sticky;
+		position:sticky;
+		left:0;
+		right:0;
+		top:0;
+		height:0px;
+	}
+}
+	
+.ui-btn, label.ui-btn {
+    border-width: 0px;
+}
+.ui-listview>li>a.ui-btn {
+	border-width: 0px;
+}
+.ui-listview>li.ui-last-child>a.ui-btn {
+	border-bottom-width: 0px;
+}
+.ui-controlgroup-horizontal .ui-controlgroup-controls .ui-btn.ui-last-child {
+    border-right-width: 0px;
+}
+.ui-input-search {
+    border-width: 0px 0px 1px 0px;
+}
+.ui-slider-track {
+	border-width: 0px;
+}
+.ui-btn-icon-left:after, .ui-btn-icon-right:after, .ui-btn-icon-top:after, .ui-btn-icon-bottom:after, .ui-btn-icon-notext:after, .iconbg {
+	background-color: rgba(0,0,0,0.1);
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.appbarbg{
+	}
+	
+.horizontal {
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display : flex;
+	align-items: center;
+}
+.horizontal .vcenter{
+	align-self: stretch;
+}
+.leftright {
+	justify-content: space-between;
+}
+
+.flex-center {
+	display:flex;flex-wrap:nowrap;width:100%;justify-content: center;
+}
+.flex-list {
+	display:flex;justify-content: space-between;align-items: center;width:100%;
+}
+.flex-leftright {
+	display:flex;width:100%;justify-content: space-between;align-items: center;
+}
+.flex-right {
+	display:flex;width:100%;justify-content: right;
+}
+
+.popupbox_auto {
+	position:relative;
+}
+	
+@media (max-width: 400px) {
+	.hidden_auto_400 {
+		display: none;
+	}
+	.button_horizontal_width {
+	}
+}
+@media (min-width: 400px) {
+	.hidden_auto_400 {
+	}
+}
+
+@media (max-width: 800px) {
+	.horizontal_auto div {
+		padding-bottom:4px;
+	}
+	.hidden_auto {
+		display: none;
+	}
+	.popupbox_auto {
+		padding: 15px;
+	}
+	.button_horizontal_width {
+		min-width: 50px;
+	}
+}
+@media (min-width: 800px) {
+	.horizontal_auto {
+		display : flex;
+		align-items: stretch;
+	}
+	.horizontal_auto div {
+		flex-grow:1;
+	}
+	.hidden_auto {
+	}
+	.popupbox_auto {
+		padding: 30px;
+	}
+	.button_horizontal_width {
+		min-width: 80px;
+	}
+}
+
+.ui-controlgroup, fieldset.ui-controlgroup {
+    padding: 0;
+    margin: 0;
+}
+
+.ui-slider-track .ui-btn.ui-slider-handle {
+	border-radius: 5px;
+	border-width: 1px;
+}
+.ui-slider-track {
+	height: 6px;
+}
+.ui-slider-switch {
+	border-radius: 5px !important;
+	font-weight: normal !important;
+}
+	
+body {
+	font-family: -apple-system, "Segoe UI", "Helvetica Neue", "Hiragino Kaku Gothic ProN", メイリオ, meiryo, sans-serif;
+	//-webkit-transform: translate3d(0,0,0);
+	//-moz-transform: translate3d(0,0,0);
+	//-ms-transform: translate3d(0,0,0);
+	//-o-transform: translate3d(0,0,0);
+	//transform: translate3d(0,0,0);
+	margin:0px;
+	padding:0px;
+	text-shadow: 0px 0px 0px rgba(0,0,0,0) !important;
+	
+		
+}
+body, input, select, textarea, button, .ui-btn {
+	font-family: -apple-system, "Segoe UI", "Helvetica Neue", "Hiragino Kaku Gothic ProN", メイリオ, meiryo, sans-serif;
+}
+html {
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+}
+form{
+	padding : 0px;
+	margin : 0px;
+}
+input, textarea {
+	-webkit-user-select : auto;
+	#color: black;
+}
+
+a:link {text-decoration : none;}
+a:visited {text-decoration : none;}
+a:hover {text-decoration : underline;}
+a:active {text-decoration : none;}
+
+.defbg{
+	background-color: white;
+}
+.menubar { 
+	padding-top:10px;
+	padding-left:10px;
+	padding-bottom:5px;
+	padding-right:5px;
+	font-size:130%;
+	border-top:0px solid #666666;
+	border-left:0px solid #666666;
+	color:#666666;
+	font-weight:bold;
+	margin-top:1px; 
+}
+.ui-mini { margin:0px; }
+
+.que{
+	display:none;
+	padding-top:5px;
+	padding-bottom:10px;
+	//text-align:left;
+	color:gray;
+}
+.que_but{
+	opacity:0.7;width:25px;
+	cursor:pointer;
+}
+
+.defborder{
+	border-color:rgb(204, 214, 221);
+}
+
+.smfullborderbox{
+	border-width:1px;
+	border-style:solid;
+	margin-left:10px;
+	margin-right:10px;
+	border-radius:6px;
+	overflow:hidden;
+}
+
+.buttonborder, .autofullbutton {
+	border-width: 1px;
+	border-style: solid;
+	border-color:rgba(204, 214, 221, 0.5);
+	border-radius: 4px;
+	overflow: hidden;
+	box-shadow: 0 0 1px rgba(0,0,0,.05);
+}
+.buttonborder a {
+	line-height: 20px;
+}
+
+.buttonborder .ui-select, .buttonborder .ui-radio, .buttonborder .ui-checkbox {
+	margin:0;
+	padding:0;
+}
+.buttonborder div.ui-btn {
+	margin:0;
+}
+
+.undertextbox div {
+	border:0px;
+	border-bottom:1px solid;
+}
+
+.dataarea { 
+	padding:10px;margin-bottom:10px;
+}
+
+
+#slide_menu{
+	position:fixed;
+	top: 0px;
+			left: -300px;
+		width: 300px;
+		height: 100%;
+	background: #CCD6DD;
+	max-width:80%;
+	overflow-x:hidden;
+	z-index:9999999;
+}
+.layer{
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+}
+#area-master{
+	position: relative;
+	top:0 ;
+	left:0 ;
+	width: 100%;
+
+			background-color: white;
+		background-image:url(img/overbg.png?v=1);
+		background-size:240px 240px;
+		background-repeat:no-repeat;
+		background-position:-50px -50px;
+	}
+.font_gray {
+	color: #666666;
+}
+
+.buttonbg{
+	background-color:  !important;
+}
+
+#fullfooter{
+	margin-top:50px;
+	background-color:rgba(128,128,128,0.03);
+	padding:0px;
+	border-top:1px solid rgba(128,128,128,0.1);
+	text-align:center;
+	flex-grow:1;
+}
+
+
+		.ui-page-theme-a .ui-btn, html .ui-bar-a .ui-btn, html .ui-body-a .ui-btn, html body .ui-group-theme-a .ui-btn, html head + body .ui-btn.ui-btn-a, .ui-page-theme-a .ui-btn:visited, html .ui-bar-a .ui-btn:visited, html .ui-body-a .ui-btn:visited, html body .ui-group-theme-a .ui-btn:visited, html head + body .ui-btn.ui-btn-a:visited, .buttonbg{
+								}
+		.ui-page-theme-a .ui-btn:hover, html .ui-bar-a .ui-btn:hover, html .ui-body-a .ui-btn:hover, html body .ui-group-theme-a .ui-btn:hover, html head + body .ui-btn.ui-btn-a:hover{
+								}
+		.ui-body-a, .ui-page-theme-a .ui-body-inherit, html .ui-bar-a .ui-body-inherit, html .ui-body-a .ui-body-inherit, html body .ui-group-theme-a .ui-body-inherit, html .ui-panel-page-container-a{
+					}
+		.ui-bar-a, .ui-page-theme-a .ui-bar-inherit, html .ui-bar-a .ui-bar-inherit, html .ui-body-a .ui-bar-inherit, html body .ui-group-theme-a .ui-bar-inherit{
+								}
+		.ui-link{
+					}
+		.ui-page-theme-a .ui-btn.ui-btn-active,html .ui-bar-a .ui-btn.ui-btn-active,html .ui-body-a .ui-btn.ui-btn-active,html body .ui-group-theme-a .ui-btn.ui-btn-active,html head + body .ui-btn.ui-btn-a.ui-btn-active,.ui-page-theme-a .ui-checkbox-on:after,html .ui-bar-a .ui-checkbox-on:after,html .ui-body-a .ui-checkbox-on:after,html body .ui-group-theme-a .ui-checkbox-on:after,.ui-btn.ui-checkbox-on.ui-btn-a:after,.ui-page-theme-a .ui-flipswitch-active,html .ui-bar-a .ui-flipswitch-active,html .ui-body-a .ui-flipswitch-active,html body .ui-group-theme-a .ui-flipswitch-active,html body .ui-flipswitch.ui-bar-a.ui-flipswitch-active,.ui-page-theme-a .ui-slider-track .ui-btn-active,html .ui-bar-a .ui-slider-track .ui-btn-active,html .ui-body-a .ui-slider-track .ui-btn-active,html body .ui-group-theme-a .ui-slider-track .ui-btn-active,html body div.ui-slider-track.ui-body-a .ui-btn-active{
+					}
+		.menubar { 
+											}
+		.deffont{
+					}
+		.defborder{
+					}
+		.defbg{
+					}
+
+		.popborder{
+					}
+		.popbg{
+					}
+		.appbarbg{
+					}
+		.detailbox{
+					}
+		
+		.fade_bg{
+			background-color:rgba(128,128,128,0.1);
+		}
+		
+		.biginput{
+			color: black;
+		}
+		
+
+.detailbox{
+	display: none;
+	padding: 15px;
+	border-style: solid;
+	border-top-width: 0px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-right-width: 1px;
+}
+
+.noticebox{
+	padding:10px;
+	border:1px solid #fbd551;
+	background-color:#fef2c9;
+	//text-align:left;
+	margin-bottom:6px;
+	color:#4d4d4d;
+	border-radius:4px;
+}
+.noticebox_red{
+	border:1px solid #E40023;
+	background-color:#FFAEB0;
+	border-radius:4px;
+}
+.titlebox{
+	padding:6px;
+	padding-left:10px;
+	text-align:left;
+	border-width:1px;
+	border-style:solid;
+	border-color:rgba(0,0,0,0.3);
+	border-radius:5px;
+}
+.valuebox{
+	padding:6px;
+	padding-left:10px;
+	text-align:left;
+	border-width:1px;
+	border-style:solid;
+	border-color:rgba(0,0,0,0.1);
+	border-radius:5px;
+	background-color: rgba(128,128,128,0.02);
+}
+.whitebox{
+	padding-top:6px;
+	padding-bottom:6px;
+}
+.biginput{
+	border-width:1px;
+	border-style:solid;
+	border-radius:6px;
+	padding:10px;
+	width:100%;
+	background-color: rgba(255,255,255,0.2);
+}
+.bigsearch{
+	background-color: rgba(255,255,255,0.2);
+	border-width:1px;
+	border-style:solid;
+	border-radius:6px;
+	padding:10px;
+	width:100%;
+	font-size:90%;
+	padding-left:40px;
+	background-repeat:no-repeat;
+	background-position:7px center;
+	background-size:25px;
+	background-image:url(img/icon_search.png?v=1);
+}
+.ui-input-search{
+	background-color: rgba(255,255,255,0.2);
+	border-width:1px;
+	border-style:solid;
+	border-radius:6px;
+}
+.ui-input-search input {
+	background-color: rgba(0,0,0,0);
+	padding:10px;
+	width:100%;
+	font-size:90%;
+	padding-left:40px;
+	background-repeat:no-repeat;
+	background-position:7px center;
+	background-size:25px;
+	background-image:url(img/icon_search.png?v=1);
+}
+.ui-input-search:after {
+	background-image:url("");
+}
+
+.force_left{
+			text-align:left !important;
+		margin: 0px;
+}
+.force_right{
+			text-align:right !important;
+		margin: 0px;
+}
+.force_center{
+	text-align:center !important;
+	margin: 0px;
+}
+
+.autofullbutton {
+
+		margin:10px;
+		border-size:1px;
+		border-style:solid;
+		border-radius:6px;
+
+}
+
+.loader {
+	background-image: url(img/loader_icon.png);
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-size:60px 60px;
+	width: 60px;
+	height: 60px;
+	margin: auto;
+	padding: 30px;
+	//display: inline-block;
+	//position: relative;
+	-webkit-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	transform: translateZ(0);
+	-webkit-animation: loader_anim 1.1s infinite linear;
+	animation: loader_anim 1.1s infinite linear;
+	text-indent: -200px;
+	overflow: hidden;
+	opacity:0.5;
+}
+	@-webkit-keyframes loader_anim {
+		0% {
+			-webkit-transform: rotate(0deg);
+			transform: rotate(0deg);
+		}
+		100% {
+			-webkit-transform: rotate(360deg);
+			transform: rotate(360deg);
+		}
+	}
+	@keyframes loader_anim {
+		0% {
+			-webkit-transform: rotate(0deg);
+			transform: rotate(0deg);
+		}
+		100% {
+			-webkit-transform: rotate(360deg);
+			transform: rotate(360deg);
+		}
+	}
+
+	-->
+</STYLE>
+
+<script type="text/javascript">
+
+var cookie = {};
+cookie.get = function(name) {
+    var regexp = new RegExp('; ' + name + '=(.*?);');
+    var match  = ('; ' + document.cookie + ';').match(regexp);
+    return match ? decodeURIComponent(match[1]) : '';
+}
+cookie.set = function(name, value) {
+    var buf = name + '=' + encodeURIComponent(value);
+    document.cookie = buf + '; expires=Mon, 31-Dec-2029 23:59:59 GMT; domain=m.kuku.lu; path=/';
+}
+cookie.localset = function(name, value) {
+    var buf = name + '=' + encodeURIComponent(value);
+    document.cookie = buf + '; expires=Mon, 31-Dec-2029 23:59:59 GMT;';
+}
+
+function CookieQuery(_query) {
+    cookie.set("cookie_next_query", ""+_query);
+}
+
+function queView(_tar, _but) {
+	_but.style.opacity = "1";
+	setTimeout(function(){_but.style.opacity = "0.7"}, 200);
+	openAlertDialog(document.getElementById(""+_tar).innerHTML, function(){});
+	
+}
+function toggleView(_tar) {
+	if (document.getElementById(""+_tar).style.display == "block") {
+		document.getElementById(""+_tar).style.display = "none";
+	} else {
+		document.getElementById(""+_tar).style.display = "block";
+	}
+}
+
+
+function parseValue(_str) {
+	var _result = new Array();
+	var _str = _str.split(";");
+	for (var i in _str) {
+		var _epos = _str[i].indexOf("=");
+		if (_epos == -1) continue;
+		
+		var _pre = _str[i].slice(0, _epos);
+		var _suf = _str[i].slice(_epos+1);
+		if (!_pre) continue;
+		
+		_suf = ""+_suf.split("#_S_#").join(";");
+		_suf = ""+_suf.split("#_E_#").join("=");
+		_suf = ""+_suf.split("#_A_#").join("&");
+		
+		_result[_pre] = ""+_suf;
+	}
+	return _result;
+}
+function parseURLParam(_str) {
+	var _result = new Array();
+	var _str = _str.split("&");
+	for (var i in _str) {
+		var _epos = _str[i].indexOf("=");
+		if (_epos == -1) continue;
+		
+		var _pre = _str[i].slice(0, _epos);
+		var _suf = _str[i].slice(_epos+1);
+		if (!_pre) continue;
+		
+		_suf = ""+_suf.split("#_S_#").join(";");
+		_suf = ""+_suf.split("#_E_#").join("=");
+		_suf = ""+_suf.split("#_A_#").join("&");
+		
+		_result[_pre] = ""+_suf;
+	}
+	return _result;
+}
+
+/*
+function parseValue( src ) {
+	var _result = new Array();
+	var _src = src.split(";");
+	for (var i = 0; i<_src.length; i++) { 
+		var _ent = _src[i].split("=");
+		_result[""+_ent[0]] = ""+_ent[1];
+	}
+	return _result;
+}
+
+function parseURLParam( src ) {
+	var _result = new Array();
+	var _src = src.split("&");
+	for (var i = 0; i<_src.length; i++) { 
+		var _ent = _src[i].split("=");
+		_result[""+_ent[0]] = ""+_ent[1];
+	}
+	return _result;
+}
+*/
+
+	var __oldlocationhash = location.hash;
+	var __locationhashkey = "p303";
+	setInterval(function(){
+		if (location.hash != __oldlocationhash) {
+			var _hash = location.hash;
+			
+			if (_hash.indexOf("#"+__locationhashkey) === 0) {
+			} else {
+				closeAlertDialog();
+			}
+			__oldlocationhash = _hash;
+		}
+	}, 50);
+
+var __lastpopupmenu = false;
+function openPopupMenu(_target) {
+	console.log("openPopupMenu: ", _target);
+	closeAlertDialog();
+	
+	if (!_target) {
+		if (__lastpopupmenu) {
+			_target = __lastpopupmenu;
+		} else {
+			return;
+		}
+	}
+	
+	if (_target.indexOf("#") == -1 && _target.indexOf(".") == -1) {
+		_target = "#"+_target;
+	}
+	if (_target != "#area-alert-dialog" && _target != "#area-confirm-dialog" && _target != "#area-loading-dialog") {
+		__lastpopupmenu = _target;
+	}
+	
+			location.hash = "#"+__locationhashkey;
+		
+	$(_target).popup("open", {positionTo: "window"});
+	$(document).off("focusin");
+	$(document).off("focus");
+	
+	$(_target).css({
+		"max-width": "1000px",
+		"width": ""+(parseInt($(window).width())*0.90)+"px",
+		"margin-left": "auto",
+		"margin-right": "auto",
+		"margin-top": "15px",
+		"margin-bottom": "15px",
+	});
+		
+	$(_target+"-popup").css({
+		"width": ""+(parseInt($(window).width()))+"px",
+		"max-width": ""+(parseInt($(window).width()))+"px",
+		"max-height": ""+(parseInt($(window).height()))+"px",
+		"overflow-y": "auto",
+	});
+	$(_target+"-popup").scrollTop(0);
+		
+	if (parseInt($(_target+"-popup").css("top")) <= parseInt($(window).scrollTop())) {
+		$(_target+"-popup").css("top", $(window).scrollTop()+"px");
+	}
+	
+	$("body").css("overflow-y", "hidden");
+	
+	$(_target).off("popupafterclose");
+	$(_target).on("popupafterclose", function( e, ui ) { closePopupMenu(_target); } );
+	
+	$(_target+"-popup").off("tap");
+	$(_target+"-popup").on("tap", function( e, ui ) {
+		console.log("tap:", e.target.id);
+		if ("#"+e.target.id == _target+"-popup") {
+			closePopupMenu(_target);
+			return false;
+		}
+	});
+	
+	document.addEventListener('touchmove', handleTouchMove, { passive: false });
+	
+	if (window.PointerEvent) {
+		$(_target+"-popup").off("pointerdown");
+		$(_target+"-popup").on("pointerdown", function( e, ui ) {
+			console.log("pointerdown:", e.target.id);
+			if ("#"+e.target.id == _target+"-popup") {
+				closePopupMenu(_target);
+				return false;
+			}
+		});
+	} else {
+		$(_target+"-popup").off("mousedown");
+		$(_target+"-popup").on("mousedown", function( e, ui ) {
+			console.log("mousedown:", e.target.id);
+			if ("#"+e.target.id == _target+"-popup") {
+				closePopupMenu(_target);
+				return false;
+			}
+		});
+	}
+	
+	$(_target).off("popupbeforeposition");
+	$(_target).on("popupbeforeposition", function( e, ui ) {
+		console.log("popupbeforeposition", ui);
+		setTimeout(function(){
+			$(_target).css({
+				"max-width": "1000px",
+				"width": ""+(parseInt($(window).width())*0.90)+"px",
+				"margin-left": "auto",
+				"margin-right": "auto",
+				"margin-top": "15px",
+				"margin-bottom": "15px",
+			});
+			
+			$(_target+"-popup").css({
+				"width": ""+(parseInt($(window).width()))+"px",
+				"max-width": ""+(parseInt($(window).width()))+"px",
+				"max-height": ""+(parseInt($(window).height()))+"px",
+				"overflow-y": "auto",
+			});
+				
+			$("body").css("overflow-y", "hidden");
+			
+			if (parseInt($(_target+"-popup").css("top")) <= parseInt($(window).scrollTop())) {
+				$(_target+"-popup").css("top", ""+$(window).scrollTop()+"px");
+			}
+		}, 10);
+	} );
+}
+
+	function handleTouchMove(e) {
+		console.log("handleTouchMove: e.target.id: "+e.target.id);
+		
+		if (__lastpopupmenu+"-screen" == "#"+e.target.id) {
+			e.preventDefault();
+		}
+	}
+
+function closePopupMenu(_target) {
+	console.log("closePopupMenu: ", _target);
+	
+	$("#area-alert-dialog").popup("close");
+	$("#area-confirm-dialog").popup("close");
+	$("#area-loading-dialog").popup("close");
+	
+	if (!_target) {
+		if (__lastpopupmenu) {
+			_target = __lastpopupmenu;
+		} else {
+			return;
+		}
+	}
+	if (_target.indexOf("#") == -1 && _target.indexOf(".") == -1) {
+		_target = "#"+_target;
+	}
+	
+	if (!_target) {
+		return;
+	}
+	
+	document.removeEventListener('touchmove', handleTouchMove, { passive: false });
+	
+	$(_target).off("popupafterclose");
+	$("body").css("overflow-y", "auto");
+		
+	$(_target).popup("close");
+}
+function resizePopupMenu() {
+	if (!__lastpopupmenu) return;
+	_target = __lastpopupmenu;
+	closePopupMenu(_target);
+	openPopupMenu(_target)
+}
+
+function viewClickButton(_tar) {
+	if (_tar.style) {
+		_tar.style.opacity = 0.7;
+		setTimeout(function(){_tar.style.opacity = 1;}, 200);
+	} else {
+		$(_tar).css("opacity", 0.7);
+		setTimeout(function(){$(_tar).css("opacity", 1);}, 200);
+	}
+}
+
+
+function safeString(_str) {
+	if (!_str || _str == undefined || _str == null) return "";
+	return _str;
+}
+
+function safestr(_str) {
+	return _str.split("<").join("&lt;").split(">").join("&gt;");
+}
+
+function viewAddr(_addr) {
+	if (!_addr) return "";
+	
+	if (_addr.length >= 40) {
+		var _tmp = _addr.split("@");
+		if (_tmp[0].length >= 20) {
+			_tmp[0] = _tmp[0].slice(0, 20)+"..";
+		}
+		if (_tmp[1]) {
+			if (_tmp[1].length >= 20) {
+				_tmp[1] = ".."+_tmp[1].slice(_tmp[1].length - 20);
+			}
+			_addr = _tmp[0]+"@"+_tmp[1];
+		} else {
+			_addr = _tmp[0];
+		}
+	}
+	return _addr;
+}
+
+
+	function editAlias(_address) {
+		viewLoading();
+
+		$.ajax({
+		    url: "aliaslist.php",
+		    type: "GET",
+		    data: "&action=dialog&mode=alert_dialog&ajax=1&address="+encodeURIComponent(_address),
+		    timeout: 10000,
+		    cache: false
+		}).done(function(data, status, xhr) {
+			if (data.indexOf("#OK#") != -1) {
+				openAlertDialog(""+data+"");
+			}
+		}).fail(function(xhr, status, error) {
+		    viewError("操作に失敗しました。インターネット接続が安定している場所で再度お試しください。");
+		});
+	}
+
+	function viewLoading() {
+		closePopupMenu();
+		closeAlertDialog();
+			
+		$("#area-loading-dialog").popup("close");
+		
+		$("#area-loading-dialog-loading").css("display", "none");
+		$("#area-loading-dialog").popup("open");
+		$("#area-loading-dialog").removeClass("ui-popup ui-body-inherit ui-overlay-shadow ui-corner-all");
+		setTimeout(function(){
+			$("#area-loading-dialog-loading").css("display", "block");
+		}, 200);
+	}
+
+function formPost(action, data, target) {
+	var form = document.createElement("form");
+	form.setAttribute("target", target);
+	form.setAttribute("action", action);
+	form.setAttribute("method", "post");
+	form.style.display = "none";
+	document.body.appendChild(form);
+	if (data !== undefined) {
+		for (var paramName in data) {
+			var input = document.createElement('input');
+			input.setAttribute('type', 'hidden');
+			input.setAttribute('name', paramName);
+			input.setAttribute('value', data[paramName]);
+			form.appendChild(input);
+		}
+	}
+	form.submit();
+}
+
+function viewQRCode(_addr, _callback) {
+	var _data = '<center><h3>'+decodeURIComponent(_addr)+'</h3>';
+	_data += '<img src="https://qrcode.kuku.lu/?service=mailnow&data='+encodeURIComponent(_addr)+'&s=5" width="180" height="180" style="border-radius: 6px;"></center>';
+	
+	if (_callback) {
+		openAlertDialog(_data, _callback);
+	} else {
+		openAlertDialog(_data, function(){});
+	}
+	
+}
+
+function editFilter(_type, _value) {
+	var _cookie_name = "cookie_filter_recv2";
+		
+	var _cookie = cookie.get(_cookie_name);
+	var _json = {};
+	if (_cookie) {
+		try {
+			_json = JSON.parse(_cookie);
+		} catch(e) {
+		}
+	}
+	_json[_type] = _value;
+	cookie.set(_cookie_name, ""+JSON.stringify(_json));
+	
+	//cookie.set("cookie_"+_type, ""+_value);
+	//query_data[""+_type] = ""+_value;
+	viewMail("&"+GetQuery("action,page"));
+}
+
+function clearFilter() {
+	FlexCall("action=clearFilter;"); //過去アプリ互換用
+		
+	var _cookie_name = "cookie_filter_recv2";
+		cookie.set(_cookie_name, "");
+	
+	cookie.set("cookie_filter_mailaddr", "");
+	cookie.set("cookie_filter_mailtype", "");
+	cookie.set("cookie_filter_mailfilter", "");
+	
+	query_data["filter_mailaddr"] = "";
+	query_data["filter_mailtype"] = "";
+	query_data["filter_mailfilter"] = "";
+	
+	viewMail("&"+GetQuery("action,page"));
+}
+
+function updateFilterComplete(_update) {
+	/*
+	setTimeout(function(){
+		cookie.set("cookie_filter_mailaddr", "");
+		cookie.set("cookie_filter_mailtype", "");
+		cookie.set("cookie_filter_mailfilter", "");
+		
+		query_data["filter_mailaddr"] = "";
+		query_data["filter_mailtype"] = "";
+		query_data["filter_mailfilter"] = "";
+		
+		_update = parseURLParam(_update);
+		for (var i in _update) {
+			query_data[""+i] = ""+decodeURIComponent(_update[i]);
+			cookie.set("cookie_"+i, ""+decodeURIComponent(_update[i]));
+		}
+		//debug = true;
+		enable_filter = false;
+		viewMail("&"+GetQuery("action,page"));
+	}, 10);
+	*/
+}
+
+function openMailAddrData(_addr) {
+	closePopupMenu();
+	viewLoading();
+	
+	$.ajax({
+	    url: "index._addrlist_addr.php",
+	    type: "GET",
+	    data: "&address="+encodeURIComponent(_addr)+"&t="+(new Date()).getTime()+"&nopost=1",
+	    timeout: 20000,
+	    cache: false
+	}).done(function(data, status, xhr) {
+		closeAlertDialog();
+		if (data.indexOf("[OK]") != -1) {
+			$("#area_addrdata").html(data).trigger( "create" );
+			$("#area_addrdata").css("display", "block");
+			openPopupMenu("#area_addrdata");
+		}
+	}).fail(function(xhr, status, error) {
+		
+	});
+}
+
+	function openMailAddrMailer(_addr) {
+		closePopupMenu();
+		
+		$.ajax({
+		    url: "smphone.app.index._addrlist_maileraccount.php",
+		    type: "GET",
+		    data: "&address="+encodeURIComponent(_addr)+"&t="+(new Date()).getTime()+"&nopost=1",
+		    timeout: 20000,
+		    cache: false
+		}).done(function(data, status, xhr) {
+			closeAlertDialog();
+			if (data.indexOf("[OK]") != -1) {
+				$("#area_addrdata").html(data).trigger( "create" );
+				$("#area_addrdata").css("display", "block");
+				openPopupMenu("#area_addrdata");
+			}
+		}).fail(function(xhr, status, error) {
+			
+		});
+	}
+
+//更新でなくタブ切り替えのみの場合に発火
+var tabRefreshQueues = [];
+function tabRefreshQueue(_func) {
+	tabRefreshQueues.push(_func);
+}
+function tabRefresh() {
+	if (tabRefreshQueues.length <= 0) return;
+	for (var i in tabRefreshQueues) {
+		tabRefreshQueues[i]();
+	}
+}
+var block_tabrefresh = false;
+function blockTabrefresh() {
+	block_tabrefresh = true;
+}
+
+
+function scrollToY(_posy) {
+    if ('scrollingElement' in document) {
+        document.scrollingElement.scrollTop = _posy;
+    } else {
+        document.body.scrollTop = _posy;
+    }
+}window.scrollTo = function(){return false;};
+</script>
+
+</HEAD>
+<BODY style="display:flex;flex-flow:column;min-height:100vh;">
+<style>
+    .ui-page{
+        flex-flow:column;
+        display:flex !important;
+    }
+</style>
+	
+<!-- WebPush -->
+	
+	<script>
+	if(navigator.userAgent.match(/Firefox\/(\d+)/) && window.PushManager && !PushManager.supportedContentEncodings) {
+	  PushManager.supportedContentEncodings = (parseInt(RegExp.$1) >= 55) ? ['aes128gcm', 'aesgcm'] : ['aesgcm'];
+	}
+	console.log(PushManager.supportedContentEncodings);
+	var subscription = null;
+	var authType = 'vapid';
+	var serverKey = urlBase64ToUint8Array('BDx99jpA8VccxBYUnG-qgdivL9b_6zb4R9QrH5J9EkiwK58ikysouwrlmqggTRJt5h0jaPKq6g4TBuyjIEwJhsg');
+	function encodeBase64URL(buffer) {
+	  return btoa(String.fromCharCode.apply(null, new Uint8Array(buffer))).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
+	}
+	function arrayBufferToBase64(arrayBuffer) {
+	    return window.btoa(String.fromCharCode.apply(null, new Uint8Array(arrayBuffer))).replace(/\+/g, '-').replace(/\//g, '_');
+	}
+
+	function decodeBase64URL(str) {
+	  let dec = atob(str.replace(/\-/g, '+').replace(/_/g, '/'));
+	  let buffer = new Uint8Array(dec.length);
+	  for(let i = 0 ; i < dec.length ; i++)
+	    buffer[i] = dec.charCodeAt(i);
+	  return buffer;
+	}
+
+	function urlBase64ToUint8Array(base64String) {
+	  const padding = '='.repeat((4 - base64String.length % 4) % 4);
+	  const base64 = (base64String + padding)
+	    .replace(/\-/g, '+')
+	    .replace(/_/g, '/');
+
+	  const rawData = window.atob(base64);
+	  const outputArray = new Uint8Array(rawData.length);
+
+	  for (let i = 0; i < rawData.length; ++i) {
+	    outputArray[i] = rawData.charCodeAt(i);
+	  }
+	  return outputArray;
+	}
+
+		
+	function togglePushSubscription() {
+		requestNotificationPermission();
+	}
+	function requestNotificationPermission() {
+	  Notification.requestPermission(function(permission) {
+	    if(permission !== 'denied') {
+	      requestPushPermission();
+	    }
+	  });
+	}
+	function requestPushPermission() {
+	  if('permissions' in navigator) 
+	    navigator.permissions.query({
+	      name: 'push',
+	      userVisibleOnly: true
+	    }).then(checkPushPermission);
+	  else if(Notification.permission !== 'denied') {
+	    navigator.serviceWorker.ready.then(requestPushSubscription);
+	  }
+	}
+		function checkPushPermission(evt) {
+		  let state = evt.state || evt.status;
+		  if(state !== 'denied')
+		    navigator.serviceWorker.ready.then(requestPushSubscription);
+		}
+	function requestPushSubscription(registration) {
+		console.log("requestPushSubscription()");
+			
+		let opt = {
+			userVisibleOnly: true,
+			applicationServerKey: serverKey
+		};
+		return registration.pushManager.subscribe(opt).then(getSubscription, errorSubscription);
+	}
+		function errorSubscription(err) {
+			console.error(err);
+		}
+	function serviceWorkerReady(registration) {
+		console.log("serviceWorkerReady()");
+		if('pushManager' in registration) {
+			registration.pushManager.getSubscription().then(getSubscription);
+		} else {
+		}
+	}
+	function getSubscription(sub) {
+			console.log("getSubscription()");
+			//console.log(sub);
+			if(sub) {
+				enablePushRequest(sub);
+			} else {
+				togglePushSubscription();
+			}
+	}
+	function enablePushRequest(sub) {
+		var key = null;
+		var auth = null;
+		
+		subscription = sub;
+
+		console.log("endpoint: "+sub.endpoint);
+		if('getKey' in sub) {
+			try {
+				key = encodeBase64URL(sub.getKey('p256dh'));
+				auth = encodeBase64URL(sub.getKey('auth'));
+				
+				console.log("key: "+key);
+				console.log("auth: "+auth);
+			} catch(e) {
+				console.error(e);
+			}
+		}
+
+		if ('supportedContentEncodings' in PushManager) {
+		  contentEncoding = PushManager.supportedContentEncodings.includes('aes128gcm') ? 'aes128gcm' : 'aesgcm';
+		} else {
+		  contentEncoding = 'aesgcm';
+		}
+
+		console.log("contentEncoding: "+contentEncoding);
+
+		$.ajax({
+		    url:'_push_server.php?action=registWebPushToken&lang=ja&platform=WebPush&endpoint='+encodeURIComponent(sub.endpoint)+'&key='+encodeURIComponent(key)+'&auth='+encodeURIComponent(auth)+'&contentEncoding='+encodeURIComponent(contentEncoding)+'&t='+Math.floor(Math.random()*100),
+		    type:'GET',
+		    data:""
+		}).done(function(data){
+			console.log(data);
+			
+			localStorage.setItem('webpush_token', key);
+			cookie.set("webpush_token", "key="+encodeURIComponent(key)+";");
+		}).fail(function(){
+		});
+		
+		$("#pushsys_token_notfound").css("display", "none");
+		$("#pushsys_token_found").css("display", "block");
+
+	}
+	
+	function requestPushUnsubcription() {
+		if(subscription) {
+			$.ajax({
+			    url:'_push_server.php?action=deleteWebPushToken&platform=WebPush&endpoint='+encodeURIComponent(subscription.endpoint)+'&t='+Math.floor(Math.random()*100),
+			    type:'GET',
+			    data:""
+			}).done(function(data){
+				console.log(data);
+			}).fail(function(){
+			});
+			
+			subscription.unsubscribe();
+			subscription = null;
+			
+			localStorage.setItem('webpush_token', "");
+			cookie.set("webpush_token", "");
+
+			$("#pushsys_token_found").css("display", "none");
+			$("#pushsys_token_notfound").css("display", "block");
+		}
+	}
+
+	function initPush() {
+		console.log("initPush()");
+		if('serviceWorker' in navigator) {
+			console.log("serverKey: "+serverKey);
+			navigator.serviceWorker.ready.then(serviceWorkerReady);
+			navigator.serviceWorker.register('webpush_worker.js?t=1752623481');
+			navigator.serviceWorker.getRegistration()
+				.then(function(registration) { return registration.update(); })
+				.then(function() {
+				})
+				.catch(function(e) {
+			});
+		}
+	}
+
+	setTimeout(function(){
+		var webpush_token = localStorage.getItem('webpush_token');
+		if (webpush_token) {
+			initPush();
+		} else {
+			$("#pushsys_token_notfound").css("display", "block");
+		}
+	}, 100);
+	</script>
+	
+<!-- --------------------------------------------- -->
+	
+	<script>
+		function toggleMenu() {
+			if ($(".layer").css("display") == "none") {
+				openMenu();
+			} else {
+				closeMenu();
+			}
+		}
+	    function openMenu(){
+	    	$(".layer").show();
+			$("#area-master").animate({'left' : 300 }, 300);
+			$("#slide_menu").animate({'left' : 0 }, 300);
+		}
+	    function closeMenu(){
+	    	$(".layer").hide();
+			$("#area-master").animate({'left' : 0 }, 300);
+			$("#slide_menu").animate({'left' : -300 }, 300);
+		}
+	</script>
+
+	<div class="layer" onclick="closeMenu();"></div>
+	<nav id="slide_menu" class="defbg">
+		<div style="padding-right:10px;border-right-width:2px;border-right-style:solid;height:100%;" class="defborder">
+		<br>
+		<a data-role="button" href="addrsort.php" data-iconpos="right" data-icon="bullets" data-shadow="false">アドレスの並び替え</a>
+		<a data-role="button" href="addrdelete.php" data-iconpos="right" data-icon="delete" data-shadow="false">アドレスの一括削除</a>
+		<a data-role="button" href="addrreserve.php" data-iconpos="right" data-icon="recycle" data-shadow="false">削除済みアドレス</a>
+		<a data-role="button" href="aliaslist.php" data-iconpos="right" data-icon="edit" data-shadow="false">アドレスの別名</a>
+		<a data-role="button" href="mailformgen.php" data-iconpos="right" data-icon="phone" data-shadow="false">メールフォーム</a>
+		<a data-role="button" href="denylist.php" data-iconpos="right" data-icon="alert" data-shadow="false">受信拒否</a>
+		<a data-role="button" href="addrtransfer.php" data-iconpos="right" data-icon="user" data-shadow="false">アドレスの譲渡</a>
+		<br>
+		<a data-role="button" href="config.php" data-iconpos="right" data-icon="gear" data-shadow="false">詳細設定</a>
+		<a data-role="button" href="index.php?pagemode_login=1&noindex=1" data-iconpos="right" data-icon="power" data-shadow="false">アカウント</a>
+		</div>
+	</nav>
+
+	
+	<style>
+		body{padding:0px;margin:0px;}
+		.area_gheader_font {
+			font-family: 'Meiryo UI',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+			font-size : 12px;
+		}
+		.area_gheader_site {
+			width: 82px;
+			text-overflow:ellipsis;
+			white-space: nowrap;
+			margin-right:2px;
+			height: 28px;
+			display:flex;
+			justify-content: center;
+			align-items: center;
+		}
+			.area_gheader_site > div {
+			}
+			
+		.area_gheader_font a:link {
+			text-decoration : none;
+		}
+		.area_gheader_font a:visited {
+			text-decoration : none;
+		}
+		.area_gheader_font a:hover {
+			text-decoration : underline;
+		}
+		.area_gheader_font a:active {
+			text-decoration : none;
+		}
+		
+		.gheader_flex-center {
+			display:flex;flex-wrap:nowrap;width:100%;justify-content: center;align-items: center;
+		}
+		.gheader_flex-list {
+			display:flex;justify-content: space-between;align-items: center;width:100%;
+		}
+		.gheader_flex-leftright {
+			display:flex;width:100%;justify-content: space-between;align-items: center;
+		}
+		.gheader_flex-left {
+			display:flex;justify-content: left;align-items: center;width:100%;
+		}
+		.gheader_flex-right {
+			display:flex;width:100%;justify-content: right;align-items: center;
+		}
+		
+		@media screen and (max-width:1100px){
+			.area_gheader_autohide_1100p {
+				display:none;
+			}
+		}
+		
+		@media screen and (max-width:300px){
+			.area_gheader_autohide_300p {
+				display:none;
+			}
+		}
+	</style>
+	
+	<div class="area_gheader_font area_gheader_autohide_300p" style="background-color:#ffffff;border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:#cccccc;">
+
+		<div class="gheader_flex-leftright">
+			<div class="gheader_flex-left">
+										<style>
+							@media screen and (max-width:137px){
+								.area_gheader_autohide_137p {
+									display:none;
+								}
+							}
+						</style>
+						<div class="area_gheader_site area_gheader_autohide_137p" style="background-color:#eeeeee;border-top-width : 2px;border-top-style : solid;border-top-color : #eeeeee;">
+							<div><a href="https://m.kuku.lu/" style="color:#bd484b;">捨てメアド</a></div>
+						</div>
+												<style>
+							@media screen and (max-width:221px){
+								.area_gheader_autohide_221p {
+									display:none;
+								}
+							}
+						</style>
+						<div class="area_gheader_site area_gheader_autohide_221p" style="border-top-width : 2px;border-top-style : solid;border-top-color : #eeeeee;">
+							<div><a href="https://draw.kuku.lu/" style="color:#3765ce;">絵チャ</a></div>
+						</div>
+												<style>
+							@media screen and (max-width:305px){
+								.area_gheader_autohide_305p {
+									display:none;
+								}
+							}
+						</style>
+						<div class="area_gheader_site area_gheader_autohide_305p" style="border-top-width : 2px;border-top-style : solid;border-top-color : #eeeeee;">
+							<div><a href="https://live.erinn.biz/" style="color:#3765ce;">LIVE配信</a></div>
+						</div>
+												<style>
+							@media screen and (max-width:389px){
+								.area_gheader_autohide_389p {
+									display:none;
+								}
+							}
+						</style>
+						<div class="area_gheader_site area_gheader_autohide_389p" style="border-top-width : 2px;border-top-style : solid;border-top-color : #eeeeee;">
+							<div><a href="https://d.kuku.lu/" style="color:#3765ce;">ファイル転送</a></div>
+						</div>
+												<style>
+							@media screen and (max-width:473px){
+								.area_gheader_autohide_473p {
+									display:none;
+								}
+							}
+						</style>
+						<div class="area_gheader_site area_gheader_autohide_473p" style="border-top-width : 2px;border-top-style : solid;border-top-color : #eeeeee;">
+							<div><a href="https://c.kuku.lu/" style="color:#3765ce;">チャット</a></div>
+						</div>
+												<style>
+							@media screen and (max-width:557px){
+								.area_gheader_autohide_557p {
+									display:none;
+								}
+							}
+						</style>
+						<div class="area_gheader_site area_gheader_autohide_557p" style="border-top-width : 2px;border-top-style : solid;border-top-color : #eeeeee;">
+							<div><a href="https://s.kuku.lu/" style="color:#3765ce;">画像共有</a></div>
+						</div>
+												<style>
+							@media screen and (max-width:641px){
+								.area_gheader_autohide_641p {
+									display:none;
+								}
+							}
+						</style>
+						<div class="area_gheader_site area_gheader_autohide_641p" style="border-top-width : 2px;border-top-style : solid;border-top-color : #eeeeee;">
+							<div><a href="https://v.kuku.lu/" style="color:#3765ce;">動画共有</a></div>
+						</div>
+												<style>
+							@media screen and (max-width:725px){
+								.area_gheader_autohide_725p {
+									display:none;
+								}
+							}
+						</style>
+						<div class="area_gheader_site area_gheader_autohide_725p" style="border-top-width : 2px;border-top-style : solid;border-top-color : #eeeeee;">
+							<div><a href="https://ddns.kuku.lu/" style="color:#3765ce;">DDNS</a></div>
+						</div>
+												<style>
+							@media screen and (max-width:809px){
+								.area_gheader_autohide_809p {
+									display:none;
+								}
+							}
+						</style>
+						<div class="area_gheader_site area_gheader_autohide_809p" style="border-top-width : 2px;border-top-style : solid;border-top-color : #eeeeee;">
+							<div><a href="https://i.kuku.lu/" style="color:#3765ce;">画像変換</a></div>
+						</div>
+												<style>
+							@media screen and (max-width:893px){
+								.area_gheader_autohide_893p {
+									display:none;
+								}
+							}
+						</style>
+						<div class="area_gheader_site area_gheader_autohide_893p" style="border-top-width : 2px;border-top-style : solid;border-top-color : #eeeeee;">
+							<div><a href="https://magical.kuku.lu/" style="color:#3765ce;">お知らせ</a></div>
+						</div>
+									</div>
+			
+			<div class="gheader_flex-right" style="margin-right:5px;">
+					
+				<div class="area_gheader_autohide_1100p" style="margin-right:10px;text-align : right;">
+					<span ><A style="color:#666666;" href="javascript:goShortURL_Header();">URL短縮</A></span>
+					 | 
+					<span ><a style="color:#666666;" href="https://magical.kuku.lu/page.contact.php" target="_blank">お問い合わせ</a></span>
+					 | 
+					<span ><a style="color:#666666;" href="https://status.aquapal.net/" target="_blank">稼働状況</a></span>
+
+				</div>
+
+				
+				<div >
+					<a href="https://aquapal.net/"><img width="17" height="17" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABnBJREFUeNrsXE1u6zYQZgwfwIsCXcY+QZQTxFl38fxOEGldFIlPkOQEtlF0bb8TxFl0beUEUU9gZVmgC/cELScdta5CDkmRlJRkPoBIANsUOR/nh9QMhWAwGAwGg8FgMBgMBoPBYDAYDAaDwWAwGAwGg6HCSYhOpj/9msg/0MayXRBffZKtkC3Pf/7h0Feh/PHj91OYlmxnso00X4N5vMBcvvvl96JzQiQJM/nni2wzYtAUctm+SWI2gYQIC2Kh+XhuEpr8fXo0H1fA4trKtvIl58SRBBD8jWxXqA0hUILAJDHbAKt6p/n4UgoqV/ymms91w0WlW2j3qufZYOBAxp38s5ftNiAZAvt6kP2vPfs5OBKYHs1nFHA+rwtD9v+AhIfVEPQPa/QRsQHqftnUv0gB/GXSEBTSAwouNmAeX120ZWAgAwb93BIZAp+zjtU5+pnnBmQUaIpc/cMItSUNoiHoM/YWKg0DfcRBl3KFl7V+xihsiMBSi/7uZR93ITUEV+vO0jxtMCKECKpUPGeMpF44BDWZ7GsTwmSlmlV7wIGv6gRY9HljYbsnrv0ShMwtngfzWcm2lII7ODzTJTAwknJiKcB9zZHfw8B99hLom6gVu5H9Z4EIMWGLwjp4mMMRLtyZgfRLKjS2JaTSEugok4IKshGyIMVJSxoSYmVKHMZwh9pIBi468q3CXty8ARHnocjAfgvUNh2uGzjfzsgAyP6AkMwQuNxEPToJoCl7zd4GAoSJw+rcOURQwcmojWVBCR60XxUwDEQ/oNOSMZq10JjHJAM1ZY5Rpw63Xjv1yNgadr4hAaHssqV5ZcQJQorhc/8IwWhNt5rOAu+cs7bmhSZp5eIj+6IhlEMeB3zGSmW3I2NJaUmfCXkhopKQwmkVGN7q/NVImq3Ze9OQUCexG5+Nnye+EZ9d9JWQ2Hjs6sG4My9tgpZ3QQgecno5cymUbcfT0D0/OX5vMuxQyC7hbGKI6UPv4GPgidgo/ju/YUSBj/FBifgvWSARYd/OuQij8+jeZsENA5uVKvFh2pHgewsIKKRpOmjkEs5k4Ulw02yNz4ZCc/Jw6k0IJj2EzD75zBg3JgTzsRZMRCMYTwmGDkSMkIjUNwStRT3w/5+otukHJ+QlCCFIxs7xGKM6MPxNaJIfFGFw+tlVaGhJhk3mSaWScEywDflm8QPh1IuQI80wkQEaAKk7Ocvcznk31ZCFwUyBRmRMRDhnP/Cw6RvZzpkMJyQmZ09pCJXS6Zwzxfj/jlwRAOk1BLVDZ+9yJsMdWC5B7eBJk3VF/JjJCGuurAiZEaaqfIfCOOvBGHSlfuXxm8yBwlxRR+SPH3B1toUZsWUQlIZoY2XfsrMu439VDlSL/oOKVp9MhCSmSKCrTZMn0g4XBOWTtyZCjI4nEr50KJSY2gELTRdhbeuZMIM+rOCjt42xzdZNB5wsiM/eZDX2ghBBZ4mHxG2TyljPvceMiK5yG0IKYiUnEbQDiL5uSUZVBW4bZIwMpx3KjH8VIdQ+Yxph7GvRbkLEFGs32jBVOqtS6MohBorQtiAiquvA2rEW7dSLvzGRMf2J7HttiOrmug8GNqHYsR/B5IZQZHQZii5QcG2TQV67MbD1/seO0THr8E1EJduD6MfrWiiaecYLBbzDWyypo+ZVYA2icCIEzVZO/G6HteauZMBg96JfOVyvtzvAym6ymwfnjZW3phsiXqtvTf1R70MyfIjO4S6kgGEzV71DPxCR2RWSYJqwLrNvKvxye7fCnE2ZosbAdx9Vm7ZaBDUV9tdTQaD01aYc4sRiRdvaWVUw4GLaIOqAN2eqYkirqzaIKtx7JMX2ao1jQZaK/ZiLJpF16U4bQ6xP3zio/rTWbDHHl166kPvU1y5hjca54xHQWDGnseMiu3QpFDLu1FFQ80j2GwiA65iWhj1QkFMCqC+U7VzQlxWEQHUtk/N1HbY3OSzRIZUBBwxmaGKZJBH0hAAjnYmD9jvNS/xzKUCjVxXWZ1kgOLxVIfMgpkRtm2h8Quw6w7q2ZEjM0nOxFSgXIOLOp5bR5xLMBCOMC8LR5bhqXu+eip3NSDl1U/yPv6/8YDWnhHD0MJfXNNmQpda9uOukL4T0AZ+pClcwIQwmhAlhMCFMCIMJYUIYTAiDCWFCGEwIE8JgQpgQBhPChDCYEEYNww82H8iiVF14mTPVDAaDwWAwWsXfAgwAq0dnv94QwYAAAAAASUVORK5CYII=" border="0"></a>
+				</div>
+			</div>
+		</div>
+	</div>
+		
+	<script>
+		function goShortURL_Header() {
+			window.open("https://kuku.lu/?surl="+encodeURIComponent(location.href));
+		}
+	</script>
+		
+
+<div id="area-master" style="min-height:50vh;">
+<div style="border-top:5px solid #FFCC33;">
+
+<div style="width:90%;max-width:1200px;margin: auto;">
+
+	<div style="padding-top:10px;padding-bottom:10px;">
+		<TABLE border="0" width="100%" cellpadding="0" cellspacing="0">
+		<tr>
+
+		<td style="min-width:200px;height:75px;font-family: 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', メイリオ, Meiryo, 'ＭＳ Ｐゴシック', sans-serif;">
+			<div class="titletext" style="font-size:25px;"><a href="https://m.kuku.lu/">捨てメアド</a></div>
+			<div class="titletext hidden_auto" style="font-size:12px;">多機能フリーメールサービス。メールアドレスは同時にいくつでも保有でき、期限もありません。登録も不要です。</div>
+		</td>
+
+		<td style="text-align:right;width:130px;max-width:130px;">
+			<div class="buttonborder">
+				<select id="config_language" onchange="updateLanguage(this.value);" data-theme="a" style="width:130px;padding:10px;">
+												<option value="ja" selected>日本語</option>
+														<option value="en" >English</option>
+														<option value="ko" >한국어</option>
+														<option value="cn" >简体中文</option>
+														<option value="tw" >繁體中文</option>
+														<option value="hi" >हिंदी</option>
+														<option value="tr" >Türkçe</option>
+														<option value="id" >Indonesia</option>
+														<option value="es" >Español</option>
+														<option value="ru" >Русский</option>
+														<option value="pt" >Português</option>
+														<option value="fr" >Français</option>
+														<option value="de" >Deutsch</option>
+														<option value="ar" >العربية</option>
+														<option value="it" >Italiano</option>
+											</select>
+			</div>
+			<script>
+				function updateLanguage(_newval) {
+					$.ajax({
+					    url: "./",
+					    type: "POST",
+					    data: "force_autolang=1&nopost=1&tar="+escape(_newval),
+					    timeout: 4000
+					}).done(function(data, status, xhr) {
+						location.href = "./";
+					}).fail(function(xhr, status, error) {
+					});
+				}
+			</script>
+		</td>
+
+		<td style="text-align:right;width:110px;min-width:110px;">
+			<a href="https://itunes.apple.com/app/shetemeado/id806157957?mt=8" target="_blank"><img src="img/appstore.png" width="50" border="0" style=""></a>
+			<a href="https://play.google.com/store/apps/details?id=air.kukulive.mailnow" target="_blank"><img src="img/googleplay.png" width="50" border="0" style=""></a>
+		</td>
+		</tr>
+		</table>
+
+
+	</div>
+		
+			<div style="height:100px;max-height:100px;overflow:hidden;">
+			<div style="margin:auto;padding-top:0px;padding-bottom:10px;text-align:center;">
+				
+			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+			<!-- 捨てメアドR 上部 -->
+			<ins class="adsbygoogle"
+			     style="display:block;" sandbox="allow-forms allow-pointer-lock allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" 
+			     data-ad-client="ca-pub-6235967741013519"
+			     data-ad-slot="5050180737"
+			     data-ad-format="horizontal"
+			     data-full-width-responsive="false"></ins>
+			<script>
+			(adsbygoogle = window.adsbygoogle || []).push({});
+			</script>
+
+				
+			</div>
+		</div>
+	
+
+	<div>
+					
+		<div class="horizontal" >
+			<div class="horizontal" style="flex-grow:1;">
+								<div style="width:15%;min-width:75px;max-width:100px;text-align:center;cursor:pointer;" onclick="flashThis(this);toggleMenu();">
+						<div><img class="mastermenuicon appbarbg ui-overlay-shadow" style="border-radius:5px;padding:8px;-ms-interpolation-mode: bicubic;" src="img/icon_menu.png" width="30" height="30" border="0"></a></div>
+						<div class="deffont" style="font-size:80%;text-overflow:ellipsis;height:30px;margin-top:5px;overflow: hidden;white-space: nowrap;">設定</div>
+					</div>
+										<div style="width:15%;min-width:75px;max-width:100px;text-align:center;cursor:pointer;" onclick="flashThis(this);location.href='index.php';">
+						<div><a href="index.php"><img class="mastermenuicon appbarbg ui-overlay-shadow" style="border-radius:5px;padding:8px;-ms-interpolation-mode: bicubic;" src="img/icon_account.png" width="30" height="30" border="0"></a></div>
+						<div class="deffont" style="font-size:80%;text-overflow:ellipsis;height:30px;margin-top:5px;overflow: hidden;white-space: nowrap;">アドレス</div>
+					</div>
+										<div style="width:15%;min-width:75px;max-width:100px;text-align:center;cursor:pointer;" onclick="flashThis(this);location.href='recv.php';">
+						<div><a href="recv.php"><img class="mastermenuicon appbarbg ui-overlay-shadow" style="border-radius:5px;padding:8px;-ms-interpolation-mode: bicubic;" src="img/icon_recv.png" width="30" height="30" border="0"></a></div>
+						<div class="deffont" style="font-size:80%;text-overflow:ellipsis;height:30px;margin-top:5px;overflow: hidden;white-space: nowrap;">受信トレイ</div>
+					</div>
+										<div style="width:15%;min-width:75px;max-width:100px;text-align:center;cursor:pointer;" onclick="flashThis(this);location.href='send.php';">
+						<div><a href="send.php"><img class="mastermenuicon appbarbg ui-overlay-shadow" style="border-radius:5px;padding:8px;-ms-interpolation-mode: bicubic;" src="img/icon_send.png" width="30" height="30" border="0"></a></div>
+						<div class="deffont" style="font-size:80%;text-overflow:ellipsis;height:30px;margin-top:5px;overflow: hidden;white-space: nowrap;">送信トレイ</div>
+					</div>
+										<div style="width:15%;min-width:75px;max-width:100px;text-align:center;font-weight:bold;" >
+						<div><a href="new.php"><img class="mastermenuicon appbarbg ui-overlay-shadow" style="filter:contrast(150%);border-radius:5px;padding:8px;-ms-interpolation-mode: bicubic;" src="img/icon_new.png" width="30" height="30" border="0"></a></div>
+						<div class="deffont" style="font-size:80%;text-overflow:ellipsis;height:30px;margin-top:5px;overflow: hidden;white-space: nowrap;">メール作成</div>
+					</div>
+								</div>
+			<div class="horizontal" style="flex-grow:1;justify-content: flex-end;">
+								<div id="pushsys_support" style="width:15%;min-width:75px;max-width:100px;text-align:center;cursor:pointer;display:none;" onclick="flashThis(this);togglePushButton();">
+
+					<div id="pushsys_token_found" style="display:none;">
+						<img class="mastermenuicon appbarbg ui-overlay-shadow" id="image_pushoff" src="img/icon_pushon.png" width="30" height="30" border="0" style="border-radius:5px;padding:8px;filter:contrast(150%);"><br>
+						<div class="deffont" style="font-size:80%;text-overflow:ellipsis;height:30px;margin-top:5px;overflow: hidden;white-space: nowrap;">通知</div>
+					</div>
+					<div id="pushsys_token_notfound" style="display:none;">
+						<img class="mastermenuicon appbarbg ui-overlay-shadow" id="image_pushoff" src="img/icon_pushoff.png" width="30" height="30" border="0" style="border-radius:5px;padding:8px;"><br>
+						<div class="deffont" style="font-size:80%;text-overflow:ellipsis;height:30px;margin-top:5px;overflow: hidden;white-space: nowrap;">通知</div>
+					</div>
+						
+					<script>
+						function isPushApiSupported() {
+							return 'PushManager' in window;
+						}
+						setTimeout(function(){
+							try {
+								if (isPushApiSupported()) {
+									document.getElementById("pushsys_support").style.display = "block";
+								}
+							} catch(e) {
+							}
+						}, 500);
+						
+						function togglePushButton() {
+							if ($("#pushsys_token_found").css("display") == "block") {
+								requestPushUnsubcription();
+							} else {
+								initPush();
+							}
+						}
+					</script>
+				</div>
+						
+				<input type="hidden" id="pushsys_forcedisable" value="">
+				<script>
+					setInterval(function(){
+						if ($("#pushsys_forcedisable").val() != "") {
+							$("#pushsys_forcedisable").val("");
+							
+							isPushApiSupported = null;
+							requestPushUnsubcription();
+						}
+					}, 200);
+				</script>
+				
+							</div>
+		</div>
+	</div>
+
+	<script>
+	function flashThis(_obj) {
+		_obj.style.opacity = "0.5";
+		setTimeout(function(){_obj.style.opacity = "1";}, 100);
+	}
+	function configMailPage() {
+		/*
+		if (location.href.indexOf("recv.selectaddr.php") != -1) {
+			location.href = "recv.php";
+		} else if (location.href.indexOf("recv.php") != -1) {
+			location.href = "recv.selectaddr.php";
+		} else if (location.href.indexOf("send.selectaddr.php") != -1) {
+			location.href = "send.php";
+		} else if (location.href.indexOf("send.php") != -1) {
+			location.href = "send.selectaddr.php";
+		}
+		*/
+		
+		toggleFilter();
+		
+		document.getElementById("image_config").style.opacity = "0.5";
+		setTimeout(function(){document.getElementById("image_config").style.opacity = "1";}, 100);
+	}
+
+	function reloadMailPage() {
+		if (location.href.indexOf("recv.selectaddr.php") != -1) {
+			location.href = "recv.php";
+		} else if (location.href.indexOf("recv.php") != -1) {
+			reloadMail();
+		} else if (location.href.indexOf("send.selectaddr.php") != -1) {
+			location.href = "send.php";
+		} else if (location.href.indexOf("send.php") != -1) {
+			reloadMail();
+		}
+		
+		//document.getElementById("image_reload").style.opacity = "0.5";
+		//setTimeout(function(){document.getElementById("image_reload").style.opacity = "1";}, 100);
+	}
+	
+	function logoutSystem() {
+		if (confirm("現在のアドレスとメールが消えると困る場合は、現在のIDとパスワードを控えてからログアウトしてください。共有の端末を使用している場合は、他人の悪用を防ぐため必ずログアウトしておいてください。ログアウトを行いますか？")) {
+			location.href="?action=logout";
+		}
+	}
+
+	function menuMouse(_obj, _flag) {
+		if (!_flag) {
+			_obj.style.backgroundColor = "";
+		} else {
+			_obj.style.backgroundColor = "rgba(128,128,128,0.2)";
+		}
+	}
+	</script>
+
+
+
+
+		
+						<script>
+							setTimeout(function(){
+																	location.href='./recaptcha_createaccount.php?ikey=5b38e170df425617e5f27ed2d41eb39e';
+															}, 300);
+						</script>
+							<div id="area-loading-dialog" data-role="popup" data-overlay-theme="b">
+	<div id="area-loading-dialog-loading" class="loader" style="display:none;">Loading...</div>
+</div>
+
+<div id="area-confirm-dialog" data-role="popup" data-overlay-theme="b">
+		
+	<div class="popupbox popupbox_auto">
+	
+		<div class="normal">
+			<div id="area-confirm-dialog-data">
+			</div><br>
+			
+			<div class="horizontal" style="padding-top:10px;justify-content: flex-end;">
+				<div class="buttonborder" style="width:150px;">
+					<a id="area-confirm-dialog-button-ok" class="force_center" data-role="button" data-shadow="false">はい</a>
+				</div>
+				<div class="buttonborder" style="width:150px;margin-left:10px;">
+					<a id="area-confirm-dialog-button-cancel" class="force_center" data-role="button" data-shadow="false">いいえ</a>
+				</div>
+			</div>
+			<script>
+				$('#area-confirm-dialog-button-ok').on('click', function(){
+				    okConfirmDialog();
+				    return false;
+				});
+				$('#area-confirm-dialog-button-cancel').on('click', function(){
+				    cancelConfirmDialog();
+				    return false;
+				});
+			</script>
+
+		</div>
+	
+	</div>
+</div>
+<script>
+	var confirmdialog_ok_lastcallback = false;
+	var confirmdialog_cancel_lastcallback = false;
+	function openConfirmDialog(_data, _callback_ok, _callback_cancel) {
+					openConfirmDialogHTML(_data, _callback_ok, _callback_cancel);
+					
+			}
+	
+	function openConfirmDialogHTML(_data, _callback_ok, _callback_cancel, _label_ok, _label_cancel) {
+		confirmdialog_ok_lastcallback = _callback_ok;
+		confirmdialog_cancel_lastcallback = _callback_cancel;
+		
+		$("#area-confirm-dialog-button-ok").html("はい");
+		if (_label_ok) {
+			$("#area-confirm-dialog-button-ok").html(""+_label_ok);
+		}
+		$("#area-confirm-dialog-button-cancel").html("いいえ");
+		if (_label_cancel) {
+			$("#area-confirm-dialog-button-cancel").html(""+_label_cancel);
+		}
+		
+		$("#area-confirm-dialog-data").html(""+_data).trigger( "create" );
+		openPopupMenu("#area-confirm-dialog");
+
+			}
+	
+		function okConfirmDialog() {
+			//$("#area-confirm-dialog").popup("close");
+			closePopupMenu();
+			confirmdialog_ok_lastcallback();
+		}
+
+		function cancelConfirmDialog() {
+			//$("#area-confirm-dialog").popup("close");
+			closePopupMenu();
+			confirmdialog_cancel_lastcallback();
+		}
+</script>
+
+<div id="area-alert-dialog" data-role="popup" data-overlay-theme="b">
+		
+	<div class="popupbox popupbox_auto">
+	
+		<div class="normal">
+			<div id="area-alert-dialog-data">
+			</div>
+			
+			<div id="master-alert-dialog-button-ok" class="horizontal" style="padding-top:10px;justify-content: flex-end;">
+				<div class="buttonborder" style="width:200px;margin-left: auto;">
+					<a id="area-alert-dialog-button-ok" class="force_center" data-role="button" data-shadow="false">OK</a>
+				</div>
+			</div>
+				
+			<script>
+				$('#area-alert-dialog-button-ok').on('click', function(){
+				    okAlertDialog();
+				    return false;
+				});
+			</script>
+
+		</div>
+	
+	</div>
+</div>
+<script>
+	var alertdialog_ok_lastcallback = false;
+	function openAlertDialog(_data, _callback_ok) {
+		alertdialog_ok_lastcallback = _callback_ok;
+		
+		$("#area-alert-dialog-data").html(""+_data).trigger( "create" );
+		openPopupMenu("#area-alert-dialog");
+		
+		//$("#area-alert-dialog").popup("close");
+		//$("#area-loading-dialog").popup("close");
+		
+		//$("#area-alert-dialog").popup("open");
+		
+		if (alertdialog_ok_lastcallback) {
+			$("#master-alert-dialog-button-ok").css({"display": "block"});
+		} else {
+			$("#master-alert-dialog-button-ok").css({"display": "none"});
+		}
+		
+			}
+
+		function okAlertDialog() {
+			closePopupMenu();
+			//$("#area-alert-dialog").popup("close");
+			alertdialog_ok_lastcallback();
+		}
+		
+		function closeAlertDialog() {
+			closePopupMenu();
+			
+			$("#area-loading-dialog").popup("close");
+		}
+		
+		function hideAlertDialogButtonOnce() {
+			$("#master-alert-dialog-button-ok").css({"display": "none"});
+		}
+</script>
+		
+<div id="area-input-dialog" data-role="popup" data-overlay-theme="b">
+		
+	<div class="popupbox popupbox_auto">
+	
+		<div class="normal">
+			<div id="area-input-dialog-data">
+				<div style="position:relative;">
+					<div><input id="input-input-dialog" type="text" autocapitalize="off" autocomplete="off" value="" style="" placeholder="" class="defborder biginput" data-role="none"></div>
+					<div id="area-input-dialog-button-rightbutton-master" style="display:none;position:absolute;right:5px;top:5px;bottom:7px;">
+						<div class="buttonborder" style="width:150px;height:100%;">
+							<a id="area-input-dialog-button-rightbutton" class="force_center" data-role="button" data-shadow="false" data-mini="true"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="area-input-dialog-caution" class="noticebox" style="margin-top:10px;">
+			</div>
+			<div id="area-input-dialog-footer" style="margin-top:10px;display:none;"></div>
+			
+			<div class="horizontal" style="padding-top:10px;justify-content: flex-end;">
+				<div class="buttonborder" style="width:150px;">
+					<a id="area-input-dialog-button-ok" class="force_center" data-role="button" data-shadow="false"><b>OK</b></a>
+				</div>
+				<div class="buttonborder" style="width:150px;margin-left:10px;">
+					<a id="area-input-dialog-button-cancel" class="force_center" data-role="button" data-shadow="false">キャンセル</a>
+				</div>
+			</div>
+			<script>
+				$('#area-input-dialog-button-ok').on('click', function(){
+				    okInputDialog();
+				    return false;
+				});
+				$('#area-input-dialog-button-cancel').on('click', function(){
+				    cancelInputDialog();
+				    return false;
+				});
+				$('#area-input-dialog-button-rightbutton').on('click', function(){
+				    rightbuttonInputDialog();
+				    return false;
+				});
+			</script>
+
+		</div>
+	
+	</div>
+</div>
+<script>
+	var inputdialog_ok_lastcallback = false;
+	var inputdialog_cancel_lastcallback = false;
+	var inputdialog_rightbutton_lastcallback = false;
+	var inputdialog_detail = false;
+	function openInputDialog(_title, _value, _caution, _callback_ok, _callback_cancel, _detail) {
+		inputdialog_ok_lastcallback = _callback_ok;
+		inputdialog_cancel_lastcallback = _callback_cancel;
+		
+		$("#input-input-dialog").val(_value);
+		$("#input-input-dialog").attr("placeholder", _title);
+		
+		if (_caution) {
+			$("#area-input-dialog-caution").html(_caution).trigger("create");
+			$("#area-input-dialog-caution").css("display", "block");
+		} else {
+			$("#area-input-dialog-caution").css("display", "none");
+		}
+		
+		inputdialog_detail = _detail;
+		$("#area-input-dialog-button-rightbutton-master").css("display", "none");
+		$("#area-input-dialog-footer").css("display", "none");
+		if (_detail) {
+			if (_detail["rightbutton"]) {
+				$("#area-input-dialog-button-rightbutton-master").css("display", "block");
+				if (_detail["rightbutton"]["label"]) {
+					$("#area-input-dialog-button-rightbutton").text(_detail["rightbutton"]["label"]);
+				}
+				inputdialog_rightbutton_lastcallback = _detail["rightbutton"]["callback"];
+			}
+			if (_detail["footer"]) {
+				$("#area-input-dialog-footer").html(_detail["footer"]).trigger("create");
+				$("#area-input-dialog-footer").css("display", "block");
+			}
+		}
+		if (rightbuttonInputDialog_timeoutHandler) {
+			clearTimeout(rightbuttonInputDialog_timeoutHandler);
+			rightbuttonInputDialog_timeoutHandler = false;
+		}
+		$("#area-input-dialog-button-rightbutton-master").css("opacity", "1");
+		
+		openPopupMenu("#area-input-dialog");
+		
+		$("#input-input-dialog").focus();
+	}
+	
+		var rightbuttonInputDialog_timeoutHandler = false;
+		function rightbuttonInputDialog() {
+			if (inputdialog_detail) {
+				if (inputdialog_detail["rightbutton"]) {
+					if (inputdialog_detail["rightbutton"]["timeout"]) {
+						if (rightbuttonInputDialog_timeoutHandler) {
+							return false;
+						}
+						$("#area-input-dialog-button-rightbutton-master").css("opacity", "0.3");
+						clearTimeout(rightbuttonInputDialog_timeoutHandler);
+						rightbuttonInputDialog_timeoutHandler = setTimeout(function(){
+							rightbuttonInputDialog_timeoutHandler = false;
+							$("#area-input-dialog-button-rightbutton-master").css("opacity", "1");
+						}, inputdialog_detail["rightbutton"]["timeout"]);
+					}
+				}
+			}
+			inputdialog_rightbutton_lastcallback($("#input-input-dialog").val());
+		}
+	
+		function okInputDialog() {
+			if (inputdialog_detail) {
+				if (inputdialog_detail["require_input"]) {
+					if ($("#input-input-dialog").val() == "") {
+						return;
+					}
+				}
+			}
+			
+			$("#input-input-dialog").blur();
+			closePopupMenu();
+			inputdialog_ok_lastcallback($("#input-input-dialog").val());
+		}
+
+		function cancelInputDialog() {
+			$("#input-input-dialog").blur();
+			closePopupMenu();
+			inputdialog_cancel_lastcallback();
+		}
+</script>
+		
+<script>
+	function viewError(_error, _callback_ok) {
+					closePopupMenu();
+			
+			if (_callback_ok) {
+				openAlertDialog(_error, _callback_ok);
+			} else {
+				openAlertDialog(_error, function(){});
+			}
+			}
+
+</script>
+<script>
+	function clipcopyjs(string){
+	  var tmp = document.createElement("div");
+	  // 選択用のタグ生成
+	  var pre = document.createElement('pre');
+	  pre.style.webkitUserSelect = 'auto';
+	  pre.style.userSelect = 'auto';
+
+	  tmp.appendChild(pre).textContent = string;
+	  var s = tmp.style;
+	  s.position = 'fixed';
+	  s.right = '200%';
+	  document.body.appendChild(tmp);
+	  document.getSelection().selectAllChildren(tmp);
+	  var result = document.execCommand("copy");
+	  document.body.removeChild(tmp);
+	  return result;
+	}
+</script>
+<input id="clipboard_pass" type="text" value="" style="display:none;" data-role="none">
+
+<script>
+	window.onbeforeunload = function(event){
+		event = event || window.event;
+		if (SaveDataKeep_Status) {
+			return event.returnValue = "作成中のメールはまだ送信されておらず、下書きにも保存されていませんが移動してもよろしいですか？";
+		} else {
+			return;
+		}
+	}
+
+var SaveDataKeep_Status = false;
+function FlexCall(_data) {
+	console.log(""+_data);
+	var _ent = parseValue(_data);
+	if (_ent["action"] == "changeUID") {
+		cookie.set('cookie_sessionhash', _ent["new_UID"]);
+		location.href = "./";
+	} else if (_ent["action"] == "SaveDataKeep") {
+		if (_ent["mode"] == "on") {
+			SaveDataKeep_Status = true;
+		} else {
+			SaveDataKeep_Status = false;
+		}
+	} else if (_ent["action"] == "clipboardCopy" || _ent["action"] == "clipboardCopyEncode") {
+		clipcopyjs(""+decodeURIComponent(_ent["text"]));
+	} else {
+		//alert(""+_data);
+	}
+}
+function ActionWinOpen(_url) {
+	if (_url.indexOf("mailto:") != -1) {
+		var _tmp = _url.split("mailto:");
+		window.open("https://m.kuku.lu/new.php?sendmail_to="+escape(_tmp[1]));
+	} else {
+		window.open(_url);
+	}
+}
+
+//更新でなくタブ切り替えのみの場合に発火
+var tabRefreshQueues = [];
+function tabRefreshQueue(_func) {
+	tabRefreshQueues.push(_func);
+}
+function tabRefresh() {
+	if (tabRefreshQueues.length <= 0) return;
+	for (var i in tabRefreshQueues) {
+		tabRefreshQueues[i]();
+	}
+}
+
+function androidLoadSuccess() {
+}
+
+setTimeout(function(){
+	try {
+		cookie.set("cookie_timezone", ""+jstz.determine().name());
+	} catch(e) {
+		console.error("timezone detect: error: "+e);
+	}
+}, 500);
+
+//ネイティブアラート出す時は'を置き換える
+var nativeAlert = window.alert;
+window.alert = function(_msg) {
+	_msg = _msg.split("&rsquo;").join("'");
+	nativeAlert(_msg);
+}
+</script>
+
+</div>
+</div>
+</div>
+	
+	
+			<div style="width:100%;min-height:90px;">
+			<div style="margin:auto;padding-top:10px;overflow:hidden;text-align:center;">
+
+				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+				<!-- 捨てメアドR 下部 -->
+				<ins class="adsbygoogle"
+				     style="display:block" sandbox="allow-forms allow-pointer-lock allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation"
+				     data-ad-client="ca-pub-6235967741013519"
+				     data-ad-slot="9314403969"
+				     data-ad-format="horizontal"
+				     data-full-width-responsive="true"></ins>
+				<script>
+				(adsbygoogle = window.adsbygoogle || []).push({});
+				</script>
+
+			</div>
+		</div>
+	
+	
+<div id="fullfooter">
+
+	<DIV class="font_gray" style="text-align:center;font-size:12px;">
+		
+		<br>
+		
+					<div style="font-size:12px;text-align:center;"><a href="https://chrome.google.com/webstore/detail/%E6%8D%A8%E3%81%A6%E3%83%A1%E3%82%A2%E3%83%89-for-chrome/ephdkjannbbaocplebkfnnnimphfpigj" target="_blank">新着メールお知らせ拡張機能はこちら (for Chrome)</a></div>
+		
+		
+		<br>
+
+		<div>
+								<b>日本語</a></b> 
+											| 
+											<a href="en.php">English</a></b> 
+											| 
+											<a href="ko.php">한국어</a></b> 
+											| 
+											<a href="cn.php">简体中文</a></b> 
+											| 
+											<a href="tw.php">繁體中文</a></b> 
+											| 
+											<a href="hi.php">हिंदी</a></b> 
+											| 
+											<a href="tr.php">Türkçe</a></b> 
+											| 
+											<a href="id.php">Indonesia</a></b> 
+											| 
+											<a href="es.php">Español</a></b> 
+											| 
+											<a href="ru.php">Русский</a></b> 
+											| 
+											<a href="pt.php">Português</a></b> 
+											| 
+											<a href="fr.php">Français</a></b> 
+											| 
+											<a href="de.php">Deutsch</a></b> 
+											| 
+											<a href="ar.php">العربية</a></b> 
+											| 
+											<a href="it.php">Italiano</a></b> 
+							</div>
+						<br>
+			
+		<div style="text-align:center;padding:5px;">
+			<a href="https://m.kuku.lu/rule.php" target="_blank">利用規約</a> | 
+			<a href="https://status.aquapal.net/" target="_blank">稼働状況</a> | 
+			<a href="https://m.kuku.lu/help.php">ヘルプとサポート</a>
+		</div>
+		<br>
+			
+		<div><a href="https://aquapal.net/" target="_blank"><img src="img/aquapal.png" border="0"></a></div>
+		<br>
+
+			
+		<!-- ここからIFRAMEを動かすとバグるので注意 -->
+		<IFRAME id="actionwin" name="actionwin" width="1" height="1" src="about:blank" frameborder="0" scrolling="NO"></IFRAME>
+		
+		&copy; 捨てメアド【メルアドぽいぽい】<BR>
+		Powered by <A href="https://twitter.com/kukusama" target="_blank">@kukusama</A>.<BR>
+		<br>
+		
+		
+		<br><br><br><br>
+	</DIV>
+</div>
+	
+<!--
+[internal processing times]
+
+@ APIProc-0: 0 sec
+@ APIProc-0-a: 0 sec
+@ APIProc-0-b: 0 sec
+@ APIProc-0-c: 0 sec
+@ APIProc-1: 0 sec
+@ APIProc-2: 0 sec
+@ APIProc-3: 0 sec
+@ APIProc-4: 0 sec
+@ APIProc-5: 0.0004 sec
+@ APIProc-7: 0.0017 sec
+
+= total: 0.0021 sec
+-->
+
+</BODY>
+</HTML>
