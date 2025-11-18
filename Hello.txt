@@ -1,0 +1,2 @@
+Hello world this is the file path of this :
+a = open('C:\Users\HP\AppData\Local\Programs\Python\Python312\Hello.txt

@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "C:/Users/HP/AppData/Local/Programs/Python/Python312/ch10.p2.x.Solution of traceback error.py", line 3, in <module>
+    raise Exception('This is error message')
+Exception: This is error message
